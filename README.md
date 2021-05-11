@@ -14,7 +14,7 @@ This Neural Network (NN) model recognizes the text contained in the images of se
 
 # Train model with IAM dataset
 
-Follow these instructions to get the IAM dataset \[3\]:
+Follow these instructions to get the IAM dataset \[1\]:
 
 * Register at this [website](http://www.fki.inf.unibe.ch/databases/iam-handwriting-database)
 * Download `words/words.tgz`
@@ -58,8 +58,5 @@ Here a Model is developed for recognizing text from the image.Algorithms used in
 
 
 ## References
-\[1\] [Build a Handwritten Text Recognition System using TensorFlow](https://towardsdatascience.com/2326a3487cd5)
 
-\[2\] [Scheidl - Handwritten Text Recognition in Historical Documents](https://repositum.tuwien.ac.at/obvutwhs/download/pdf/2874742)
-
-\[3\] [Marti - The IAM-database: an English sentence database for offline handwriting recognition](http://www.fki.inf.unibe.ch/databases/iam-handwriting-database)
+\[1\] [Marti - The IAM-database: an English sentence database for offline handwriting recognition](http://www.fki.inf.unibe.ch/databases/iam-handwriting-database)
