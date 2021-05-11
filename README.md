@@ -39,7 +39,7 @@ The illustration below gives an overview of the NN (green: operations, pink: dat
 * The input image is a gray-value image and has a size of 128x32
 * 5 CNN layers map the input image to a feature sequence of size 32x256
 * 2 LSTM layers with 256 units propagate information through the sequence and map the sequence to a matrix of size 32x80. Each matrix-element represents a score for one of the 80 characters at one of the 32 time-steps
-* The CTC layer either calculates the loss value given the matrix and the ground-truth text (when training), or it decodes the matrix to the final text with best path decoding or beam search decoding (when inferring)
+* The CTC layer either calculates the loss value given the matrix and the ground-truth text (when training), or it decodes the matrix to the final text.
 
 
 ![nn_overview](./doc/nn_overview.png)
